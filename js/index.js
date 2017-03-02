@@ -91,8 +91,8 @@ function addWheel(obj,fn){
 	function part2_move(){
 		if(currentIndex%4 == -1 || currentIndex%4 == 3){
 			$('#skill_list li').each(function(i,oLi){
-				$(oLi).css({left:95*(i%8),top:-210});
-				$(oLi).stop().delay(70*rnd(5,20)).animate({top:70*(parseInt(i/8)+1)},{duration:1000,easing:'bounceBoth'});
+				$(oLi).css({left:110*(i%7),top:-210});
+				$(oLi).stop().delay(70*rnd(5,20)).animate({top:70*(parseInt(i/7)+1)},{duration:1000,easing:'bounceBoth'});
 			})
 		}
 	};
