@@ -98,17 +98,17 @@ function addWheel(obj,fn){
 	};
 	function part5_move(){
 		if(currentIndex%4 == 1 || currentIndex%4 == -3){
-			$('.weixin').delay(1800).animate({top:100},{duration:1000,easing:'bounceBoth',complete:function(){
-				$('.weixin').animate({left:120},{duration:600});
+			$('.weixin').delay(1000).animate({top:100},{duration:500,easing:'bounceBoth',complete:function(){
+				$('.weixin').animate({left:120},{duration:400});
 			}});
-			$('.qq').delay(900).animate({top:100},{duration:1000,easing:'bounceBoth',complete:function(){
-				$('.qq').animate({left:380},{duration:600});
+			$('.qq').delay(500).animate({top:100},{duration:500,easing:'bounceBoth',complete:function(){
+				$('.qq').animate({left:380},{duration:400});
 			}});
-			$('.email').delay(1800).animate({top:260},{duration:1000,easing:'bounceBoth',complete:function(){
-				$('.email').animate({left:120},{duration:600});
+			$('.email').delay(1000).animate({top:260},{duration:500,easing:'bounceBoth',complete:function(){
+				$('.email').animate({left:120},{duration:400});
 			}});
-			$('.phone').delay(900).animate({top:260},{duration:1000,easing:'bounceBoth',complete:function(){
-				$('.phone').animate({left:380},{duration:600});
+			$('.phone').delay(500).animate({top:260},{duration:500,easing:'bounceBoth',complete:function(){
+				$('.phone').animate({left:380},{duration:400});
 			}});
 		}
 	}
